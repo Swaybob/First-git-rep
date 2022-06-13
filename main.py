@@ -31,7 +31,9 @@ def find_win():
             print("Computer:", dic[comp_choice], "\nYou:",
             dic[User_input])
             print(decorate,"Tie", decorate)
-            play_again()
+            enter_input()
+            is_valid()
+            find_win()
             break
         elif (User_input == "S" and comp_choice == "R") or (User_input == "P" and comp_choice == "S") or (User_input == "R" and comp_choice == "P"):
             print("Computer:", dic[comp_choice], "\nYou:",
